@@ -3,11 +3,14 @@
 I'm currently pursuing a Master's degree in XX at the Department of XX, XX University, XX.
 
 #### Email  
-<code>XX@XX.XX</code>  
-<code>XX@XX.XX</code>
+<code>zhangyulai@shu.edu.cn</code>  
+<code>zhangyulai2022@163.com</code>
 
 #### Education  
-**XX University**, Master of XX (XX – XX)  
+**Shanghai University University **, Master of Artificial Intelligence(2025.9 – 2028.3)  
+• GPA: XX/XX  
+
+**Jiangxi University of Finance and Economics **, Undergraduate students of Software engineering and finance(2021.9 – 2025.6)  
 • GPA: XX/XX  
 
 **XX University**, Exchange student <br>  
