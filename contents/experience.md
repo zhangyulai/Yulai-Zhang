@@ -1,21 +1,18 @@
-### **Software Engineer Intern**  
-**January 2025 – June 2025 | ByteDance**  
+## **数据可视化实习生**  
+**2024年11月4日 – 2025年12月30日 | 江西财经大学财经数据科学重点实验室（国家级重点实验室）**  
 
-Worked on the development and optimization of large-scale recommendation systems, focusing on algorithm improvements and system efficiency enhancements. Contributed to real-time data processing pipelines and model optimization for personalized content delivery.
-
-#### Key Contributions:  
-- Developed and optimized recommendation algorithms to enhance user engagement and content relevance.  
-- Designed and implemented real-time data processing workflows to improve model inference efficiency.  
-- Conducted A/B testing and performance analysis to refine recommendation strategies based on user behavior data.  
-
----
-
-### **软件工程师实习生**  
-**2025年1月 – 2025年6月 | 字节跳动**  
-
-负责大规模推荐系统的开发与优化，专注于算法改进和系统效率提升。参与实时数据处理管道的构建，并优化模型推理流程，以提升个性化内容推荐效果。
-
+参与数字公路项目R-shiny的代码编写工作、数据可视化的系统性总结、
 #### 主要贡献:  
-- 研发并优化推荐算法，提高用户互动率和内容相关性。  
-- 设计并实现实时数据处理流程，提升模型推理的计算效率。  
-- 进行A/B测试与性能分析，基于用户行为数据优化推荐策略。
+- 在数字化公路项目中，我负责编写后端代码，处理和分析大量的公路数据，包括道路状况等。  
+- 在数据可视化的系统性总结方面，我负责整理和分析现有理论中产生的各种数据可视化论文和报告。  
+
+## **VR开发实习生**  
+**2024年10月1日 – 2025年12月1日 | 深圳市宜达数字有限公司**  
+
+协助公司主程开发一款专为儿童设计的基于Pico3VR头盔的视力训练游戏项目。
+该项目旨在通过虚拟现实技术，结合视力训练相关标准规范，为儿童提供个性化、趣味化的视力训练方案。
+#### 主要贡献:  
+- 参与游戏模块的设计讨论，根据视力训练标准提出改进建议，并协助完成模块的初步设计。
+- 技术实现：使用Unity引擎进行游戏开发，负责部分游戏逻辑的编写和优化，确保模块功能符合设计要求。
+- 测试与优化：参与游戏的内部测试，记录并修复发现的问题，同时根据用户反馈优化游戏体验。
+- 团队协作：与主程及其他团队成员密切合作，参与每日汇报，汇报工作进展并讨论解决方案。
