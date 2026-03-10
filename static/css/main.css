@@ -23,10 +23,12 @@
 
 .top-section {
     position: relative;
-    padding: 10rem 0;
+    padding: 12rem 0;
     background-position: center;
-    background-size: contain;
-    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25rem;
+    width: 100%;
 }
 
 .top-section h2 {
