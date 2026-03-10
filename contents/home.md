@@ -9,7 +9,7 @@
 #### 邮箱  
 <code>zhangyulai@shu.edu.cn</code>  
 <code>zhangyulai2022@163.com</code> 
-<code>zhangyulai_shu@163.com</code>
+<code>zhangyulai_shu@163.com</code> 
 
 #### 研究兴趣
 具身智能、机器人、强化学习、大语言模型
