@@ -1,6 +1,6 @@
 [![ZYL](https://img.shields.io/badge/张煜来-github-blue?logo=github)](https://github.com/zhangyulai)
 
-# I'm currently pursuing a Master's degree in Shanghai University.  
+# I’m Yulai Zhang(张煜来), pursuing my Master’s degree in Artificial Intelligence at Shanghai University.
 
 #### 教育背景 
 硕士：**上海大学**  人工智能  (2025年9月 – 2028年3月)  
