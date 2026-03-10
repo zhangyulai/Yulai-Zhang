@@ -18,8 +18,9 @@
     position: relative;
     padding: 10rem 0;
     background-position: center;
-    background-size: cover;
-    height: 25rem;
+    background-size: contain;
+    /* background-size: cover; */
+    /* height: 25rem; */
 }
 
 .top-section h2 {
