@@ -21,15 +21,15 @@
     margin-right: 20px;
 }
 
-/* .top-section {
+.top-section {
     position: relative;
     padding: 12rem 0;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 25rem;
+    min-height: auto;
     width: 100%;
-} */
+}
 
 .top-section h2 {
     font-weight: 400;
