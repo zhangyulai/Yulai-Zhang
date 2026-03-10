@@ -27,7 +27,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 25rem;
+    min-height: 25rem;
     width: 100%;
 }
 
