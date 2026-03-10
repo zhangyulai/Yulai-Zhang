@@ -27,7 +27,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: auto;
+    height: 25rem;
 }
 
 .top-section h2 {
