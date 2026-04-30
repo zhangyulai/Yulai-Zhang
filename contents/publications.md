@@ -1,4 +1,5 @@
-- 学术论文：Position Paper: A New Paradigm for Robot Multimodal Understanding and Decision-Making with Large Language Models as the Cognitive Core (IEEE IJCNN,CCF-C,一作).
+- 学术论文：Reinforcement Learning Enabled Adaptive Multi-Task Control for Bipedal Soccer Robots(arXiv,一作).
+- 学术论文：A New Paradigm for Robot Multimodal Understanding and Decision-Making with Large Language Models as the Cognitive Core (IEEE IJCNN,一作).
 - 发明专利：CN121083695A 基于Unity迁移的机器人通用行走控制方法与系统（已公开），2025年10月.
 - 软件著作权：2024SR1381025 智慧乡村旅游云平台V1.0，2024年9月.
 - 软件著作权：2024SR1192363 旅游信息综合服务平台V1.0，2024年8月.
