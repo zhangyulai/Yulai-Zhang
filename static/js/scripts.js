@@ -1,9 +1,25 @@
 const content_dir = 'contents/'
 const config_file = 'config.yml'
 const section_names = ['home', 'awards', 'experience', 'publications'];
+const hash_aliases = {
+    '#home': '#about',
+    '#experience': '#internships',
+};
+
+function normalizeHash() {
+    const nextHash = hash_aliases[window.location.hash];
+    if (!nextHash) {
+        return;
+    }
+
+    history.replaceState(null, '', nextHash);
+    document.querySelector(nextHash)?.scrollIntoView();
+}
 
 
 window.addEventListener('DOMContentLoaded', event => {
+    normalizeHash();
+    window.addEventListener('hashchange', normalizeHash);
 
     // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
