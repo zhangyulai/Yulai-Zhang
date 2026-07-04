@@ -346,14 +346,17 @@ a:focus {
 }
 
 .publication-authors,
-.publication-venue {
+.publication-meta {
     margin-top: 3px;
     color: #1f2937;
     line-height: 1.45;
 }
 
-.publication-venue {
-    display: inline;
+.publication-meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
 }
 
 .self-author {
@@ -366,7 +369,7 @@ a:focus {
     flex-wrap: wrap;
     gap: 8px;
     margin-top: 0;
-    margin-left: 12px;
+    margin-left: 0;
     vertical-align: middle;
 }
 
