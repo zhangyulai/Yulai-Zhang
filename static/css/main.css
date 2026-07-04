@@ -23,10 +23,12 @@
 
 .top-section {
     position: relative;
-    padding: 10rem 0;
-    background-position: center;
-    background-size: cover;
-    height: 25rem;
+    padding: 0;
+    background-color: #eee5f0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: min(100%, 1231px) auto;
+    height: clamp(16rem, 38.25vw, 29.5rem);
 }
 
 .top-section h2 {
@@ -98,7 +100,7 @@ section .main-body{
 #avatar {
     position: relative;
     height: 0;
-    top:min(-65px,max(-100px,calc(-1*100vw/12)));
+    top: clamp(-90px, -5vw, -60px);
     max-width: 55em;
     margin: 0 1.5rem 0 0;
     float: right;
@@ -106,13 +108,26 @@ section .main-body{
 }
 
 #avatar img {
-    height: max(130px,min(200px,calc(100vw/6)));
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    height: clamp(130px, 10vw, 180px);
+    border: 6px solid #ffffff;
+    box-shadow: 0 14px 28px rgba(31, 36, 48, 0.18);
 }
 
 @media screen and (max-width: 991px) {
     #avatar {
         margin: 0;
+        top: -54px;
+    }
+
+    #avatar img {
+        height: 128px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .top-section {
+        background-size: auto 100%;
+        height: 15rem;
     }
 }
 
