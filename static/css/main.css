@@ -352,23 +352,29 @@ a:focus {
     line-height: 1.45;
 }
 
+.publication-venue {
+    display: inline;
+}
+
 .self-author {
     color: var(--link);
     font-weight: 700;
 }
 
 .publication-actions {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     gap: 8px;
-    margin-top: 4px;
+    margin-top: 0;
+    margin-left: 12px;
+    vertical-align: middle;
 }
 
 .pub-button {
     display: inline-flex;
     align-items: center;
-    min-height: 28px;
-    padding: 3px 10px;
+    min-height: 26px;
+    padding: 2px 10px;
     color: #075985;
     background: rgba(231, 246, 255, 0.82);
     border: 1px solid rgba(0, 163, 255, 0.32);
