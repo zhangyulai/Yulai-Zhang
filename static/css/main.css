@@ -315,22 +315,22 @@ a:focus {
 
 .publication-item {
     position: relative;
-    display: grid;
-    grid-template-columns: 204px minmax(0, 1fr);
+    display: flex;
+    align-items: flex-start;
     gap: 16px;
-    align-items: start;
-    padding: 0 0 20px;
-    margin: 0 0 18px;
+    padding: 0 0 18px;
+    margin: 0 0 16px;
     border-bottom: 1px solid var(--line);
 }
 
 .publication-image {
-    width: 204px;
+    flex: 0 0 202px;
+    width: 202px;
     height: 112px;
     object-fit: cover;
     object-position: center;
     border: 1px solid rgba(31, 41, 55, 0.12);
-    border-radius: 2px;
+    border-radius: 0;
     background: #e5edf5;
 }
 
@@ -429,8 +429,10 @@ a:focus {
 }
 
 .site-footer {
-    border-top: 1px solid var(--line);
-    color: var(--muted);
+    background:
+        linear-gradient(90deg, rgba(7, 34, 72, 0.94), rgba(8, 76, 126, 0.9), rgba(7, 34, 72, 0.94));
+    border-top: 1px solid rgba(78, 202, 255, 0.28);
+    color: rgba(236, 250, 255, 0.82);
     font-size: 0.88rem;
 }
 
@@ -439,6 +441,15 @@ a:focus {
     align-items: center;
     gap: 16px;
     min-height: 58px;
+}
+
+.site-footer a {
+    color: #9ee7ff;
+}
+
+.site-footer a:hover,
+.site-footer a:focus {
+    color: #ffffff;
 }
 
 @media screen and (max-width: 900px) {
@@ -487,10 +498,11 @@ a:focus {
     }
 
     .publication-item {
-        grid-template-columns: 180px minmax(0, 1fr);
+        gap: 14px;
     }
 
     .publication-image {
+        flex-basis: 180px;
         width: 180px;
         height: 100px;
     }
@@ -531,12 +543,13 @@ a:focus {
     }
 
     .publication-item {
-        grid-template-columns: 1fr;
+        display: block;
     }
 
     .publication-image {
         width: 100%;
         height: auto;
         max-height: 180px;
+        margin-bottom: 10px;
     }
 }
