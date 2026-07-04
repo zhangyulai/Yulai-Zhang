@@ -1,15 +1,30 @@
-## SoftWare Engineer Intern | 优三缔科技（上海）有限公司
-**2026.3 - 2026.6** | 上海
+### 2026
 
-## 数据可视化实习生 | 江西财经大学财经数据科学重点实验室
-**2024.11 - 2024.12** | 教育部第二批哲学社会科学实验室
-- 参与数字公路项目的 R-Shiny 全栈开发，负责后端数据处理模块编写，实现海量公路路况数据的清洗、分析与结构化输出；
-- 系统性梳理数据可视化领域的学术成果，整合 50+ 篇核心论文/报告的方法论与实践案例，形成可视化理论总结文档；
-- 技术栈：R (Shiny/ggplot2)、数据清洗、结构化数据分析。
+<div class="internship-item">
+  <img class="internship-logo" src="static/assets/img/UnityChina.png" alt="Unity China logo">
+  <div class="internship-main">
+    <div class="internship-company">优三缔科技（上海）有限公司</div>
+    <div class="internship-role">Software Engineer Intern</div>
+    <div class="internship-date">2026.3--2026.6</div>
+  </div>
+</div>
 
-## VR开发实习生 | 深圳市宜达数字有限公司
-**2024.9 - 2024.10** | 深圳
-- 参与基于 Pico3 VR 头盔的儿童视力训练游戏开发（Unity 引擎），负责核心游戏逻辑编写与模块优化，覆盖视力训练场景交互、个性化方案配置功能；
-- 对接视力训练行业标准，参与游戏模块设计评审并提出 8+ 条优化建议，落地后提升训练流程的合规性与趣味性；
-- 参与项目全流程测试，定位并修复 10+ 个功能 Bug，结合用户反馈优化交互逻辑，提升游戏流畅度与儿童使用体验；
-- 技术栈：Unity3D、C#、VR 开发（Pico3 SDK）、游戏逻辑开发、测试与调试。
+### 2024
+
+<div class="internship-item">
+  <img class="internship-logo" src="static/assets/img/JUFELAB.png" alt="Jiangxi University of Finance and Economics Lab logo">
+  <div class="internship-main">
+    <div class="internship-company">江西财经大学财经数据科学重点实验室</div>
+    <div class="internship-role">数据可视化实习生</div>
+    <div class="internship-date">2024.11--2024.12</div>
+  </div>
+</div>
+
+<div class="internship-item">
+  <img class="internship-logo" src="static/assets/img/YiDaShuZi.jpg" alt="YiDa Digital logo">
+  <div class="internship-main">
+    <div class="internship-company">深圳市宜达数字有限公司</div>
+    <div class="internship-role">VR 开发实习生</div>
+    <div class="internship-date">2024.9--2024.10</div>
+  </div>
+</div>

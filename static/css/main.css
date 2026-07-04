@@ -410,31 +410,63 @@ a:focus {
     color: var(--accent);
 }
 
-#experience .main-body h2 {
-    margin-top: 28px;
-    padding: 16px 0 0 18px;
-    border-top: 1px solid var(--line);
-    border-bottom: 0;
-    border-left: 3px solid var(--accent);
-    font-size: 1.12rem;
-    font-weight: 600;
+#experience .main-body h3 {
+    display: block;
+    min-height: 0;
+    padding: 0 0 10px;
+    margin: 32px 0 14px;
+    color: var(--text);
+    background: transparent;
+    border-bottom: 1px solid var(--line);
+    border-radius: 0;
+    font-size: 1.35rem;
+    font-weight: 500;
 }
 
-#experience .main-body h2:first-child {
+#experience .main-body h3:first-child {
     margin-top: 0;
 }
 
-#experience .main-body p {
-    color: var(--muted);
+.internship-item {
+    display: grid;
+    grid-template-columns: 200px minmax(0, 1fr);
+    gap: 20px;
+    align-items: center;
+    padding: 8px 0 22px;
 }
 
-#experience .main-body ul {
-    margin-top: 8px;
-    padding-left: 1.25rem;
+.internship-logo {
+    width: 200px;
+    max-height: 76px;
+    object-fit: contain;
+    object-position: left center;
 }
 
-#experience .main-body li::marker {
-    color: var(--accent);
+.internship-logo-text {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    color: #0c74bd;
+    background: rgba(231, 246, 255, 0.72);
+    border: 1px solid rgba(0, 163, 255, 0.24);
+    border-radius: 4px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.internship-company {
+    color: var(--link);
+    font-weight: 700;
+    line-height: 1.35;
+}
+
+.internship-role,
+.internship-date {
+    margin-top: 2px;
+    color: #1f2937;
+    line-height: 1.45;
 }
 
 .site-footer {
@@ -515,6 +547,15 @@ a:focus {
         width: 180px;
         height: 100px;
     }
+
+    .internship-item {
+        grid-template-columns: 168px minmax(0, 1fr);
+        gap: 16px;
+    }
+
+    .internship-logo {
+        width: 168px;
+    }
 }
 
 @media screen and (max-width: 560px) {
@@ -560,5 +601,15 @@ a:focus {
         height: auto;
         max-height: 180px;
         margin-bottom: 10px;
+    }
+
+    .internship-item {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .internship-logo {
+        width: 180px;
+        max-width: 100%;
     }
 }
