@@ -1,15 +1,15 @@
 @import "./styles.css";
 
 :root {
-    --page-bg: #ffffff;
-    --text: #2f3237;
-    --muted: #6f7880;
-    --line: #e8ecef;
-    --soft-line: #f3f5f7;
-    --link: #005ecb;
-    --link-hover: #00489b;
-    --accent: #f28a2e;
-    --accent-soft: #fff4ea;
+    --page-bg: #071b37;
+    --text: #1d2733;
+    --muted: #617286;
+    --line: rgba(73, 132, 191, 0.22);
+    --soft-line: rgba(73, 132, 191, 0.14);
+    --link: #006fe6;
+    --link-hover: #004fad;
+    --accent: #00a3ff;
+    --accent-soft: #e7f6ff;
 }
 
 html {
@@ -17,14 +17,25 @@ html {
 }
 
 body {
-    background-color: #edf7ff;
+    background-color: var(--page-bg);
     background-image:
-        linear-gradient(90deg, rgba(0, 115, 230, 0.12) 1px, transparent 1px),
-        linear-gradient(180deg, rgba(0, 115, 230, 0.12) 1px, transparent 1px),
-        radial-gradient(circle at 18% 12%, rgba(50, 139, 255, 0.22), transparent 30%),
-        radial-gradient(circle at 88% 18%, rgba(0, 209, 255, 0.16), transparent 28%),
-        linear-gradient(135deg, #e6f4ff 0%, #f8fcff 42%, #edf7ff 100%);
-    background-size: 42px 42px, 42px 42px, auto, auto, auto;
+        linear-gradient(rgba(255, 255, 255, 0.86), rgba(247, 252, 255, 0.88)),
+        radial-gradient(circle at 18% 15%, rgba(0, 194, 255, 0.48), transparent 28%),
+        radial-gradient(circle at 82% 9%, rgba(67, 120, 255, 0.38), transparent 30%),
+        linear-gradient(90deg, rgba(0, 152, 255, 0.18) 1px, transparent 1px),
+        linear-gradient(180deg, rgba(0, 152, 255, 0.18) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 152, 255, 0.1) 1px, transparent 1px),
+        linear-gradient(180deg, rgba(0, 152, 255, 0.1) 1px, transparent 1px),
+        linear-gradient(135deg, #06182f 0%, #0b3f78 52%, #0a829f 100%);
+    background-size:
+        auto,
+        auto,
+        auto,
+        96px 96px,
+        96px 96px,
+        24px 24px,
+        24px 24px,
+        auto;
     background-attachment: fixed;
     color: var(--text);
     font-family: "Kanit", "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -51,9 +62,11 @@ a:focus {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: rgba(245, 251, 255, 0.88);
-    border-bottom: 1px solid var(--line);
-    backdrop-filter: blur(12px);
+    background:
+        linear-gradient(90deg, rgba(7, 34, 72, 0.9), rgba(9, 90, 145, 0.82), rgba(7, 34, 72, 0.9));
+    border-bottom: 1px solid rgba(78, 202, 255, 0.28);
+    box-shadow: 0 12px 32px rgba(5, 26, 55, 0.16);
+    backdrop-filter: blur(14px);
 }
 
 .site-header .site-shell {
@@ -65,14 +78,14 @@ a:focus {
 }
 
 .site-title {
-    color: #7a8288;
+    color: rgba(236, 250, 255, 0.82);
     font-size: 1rem;
     font-weight: 700;
 }
 
 .site-title:hover,
 .site-title:focus {
-    color: var(--text);
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -84,7 +97,12 @@ a:focus {
 }
 
 .site-nav a {
-    color: #1f2328;
+    color: rgba(236, 250, 255, 0.9);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: #ffffff;
 }
 
 .page-layout {
@@ -99,6 +117,12 @@ a:focus {
     align-self: start;
     position: sticky;
     top: 96px;
+    padding: 18px;
+    background: rgba(255, 255, 255, 0.72);
+    border: 1px solid rgba(85, 167, 232, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 18px 44px rgba(8, 42, 82, 0.08);
+    backdrop-filter: blur(10px);
 }
 
 .profile-photo {
@@ -146,6 +170,12 @@ a:focus {
 
 .content-column {
     max-width: 770px;
+    padding: 28px 36px 8px;
+    background: rgba(255, 255, 255, 0.72);
+    border: 1px solid rgba(85, 167, 232, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 18px 44px rgba(8, 42, 82, 0.08);
+    backdrop-filter: blur(10px);
 }
 
 .content-section {
@@ -257,6 +287,14 @@ a:focus {
     list-style: none;
 }
 
+#publications .main-body h3 {
+    margin-top: 24px;
+}
+
+#publications .main-body h3:first-child {
+    margin-top: 0;
+}
+
 #publications .main-body li {
     position: relative;
     padding: 0 0 18px 18px;
@@ -273,6 +311,70 @@ a:focus {
     height: 6px;
     background: var(--accent);
     border-radius: 50%;
+}
+
+.publication-item {
+    position: relative;
+    padding: 0 0 20px 18px;
+    margin: 0 0 18px;
+    border-bottom: 1px solid var(--line);
+}
+
+.publication-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.74em;
+    width: 6px;
+    height: 6px;
+    background: var(--accent);
+    border-radius: 50%;
+}
+
+.publication-title {
+    color: #111827;
+    font-size: 1.02rem;
+    font-weight: 700;
+    line-height: 1.35;
+}
+
+.publication-authors,
+.publication-venue {
+    margin-top: 3px;
+    color: #1f2937;
+    line-height: 1.45;
+}
+
+.self-author {
+    color: var(--link);
+    font-weight: 700;
+}
+
+.publication-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.pub-button {
+    display: inline-flex;
+    align-items: center;
+    min-height: 28px;
+    padding: 3px 10px;
+    color: #075985;
+    background: rgba(231, 246, 255, 0.82);
+    border: 1px solid rgba(0, 163, 255, 0.32);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.pub-button:hover,
+.pub-button:focus {
+    color: #ffffff;
+    background: var(--accent);
+    text-decoration: none;
 }
 
 #awards .main-body ul,
@@ -374,6 +476,7 @@ a:focus {
 
     .content-column {
         max-width: none;
+        padding: 24px;
     }
 }
 
@@ -405,5 +508,9 @@ a:focus {
 
     .content-section header h2 {
         font-size: 1.55rem;
+    }
+
+    .content-column {
+        padding: 20px 18px 4px;
     }
 }
