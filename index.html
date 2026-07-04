@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="Academic Webpage" />
     <meta name="author" content="yixin0313" />
-    <title id="title">Yulai Zhang</title>
+    <title id="Title">Yulai Zhang</title>
 
     <!-- Icon -->
     <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
@@ -77,109 +77,78 @@
 </head>
 
 <body id="page-top">
-    <!-- Navigation-->
-    <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-        <div class="container px-5">
-            <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top">Yulai Zhang (张煜来)</a>
-            <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                MENU
-                <i class="bi-list"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#home">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards">AWARDS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#experience">EXPERIENCE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
-                    </li>
-                </ul>
+    <nav class="site-header" id="mainNav">
+        <div class="site-shell">
+            <a id="page-top-title" class="site-title" href="#page-top">Yulai Zhang / Personal Homepage</a>
+            <div class="site-nav">
+                <a href="#home">About</a>
+                <a href="#publications">Publications</a>
+                <a href="#awards">Awards</a>
+                <a href="#experience">Experience</a>
             </div>
         </div>
     </nav>
 
-    <!-- Top Section -->
-    <section class="top-section" style="background-image: url('static/assets/img/background.jpeg');">
-        <div class="top-section-content">
-            <div class="container px-5">
-                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
-            </div>
+    <main class="site-shell page-layout">
+        <aside class="profile-card">
+            <img class="profile-photo" src="static/assets/img/photo.png" alt="Yulai Zhang portrait">
+            <h1 id="Name">Yulai Zhang (张煜来)</h1>
+            <ul class="profile-list">
+                <li>
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <span>Shanghai, China</span>
+                </li>
+                <li>
+                    <i class="bi bi-bank2"></i>
+                    <span>Shanghai University</span>
+                </li>
+                <li>
+                    <i class="bi bi-envelope-fill"></i>
+                    <span id="Email">zhangyulai2022@163.com</span>
+                </li>
+                <li>
+                    <i class="bi bi-github"></i>
+                    <a href="https://github.com/zhangyulai">Github</a>
+                </li>
+            </ul>
+        </aside>
+
+        <div class="content-column">
+            <section class="content-section" id="home">
+                <header>
+                    <h2 id="home-subtitle">About me</h2>
+                </header>
+                <div class="main-body" id="home-md"></div>
+            </section>
+
+            <section class="content-section" id="publications">
+                <header>
+                    <h2 id="publications-subtitle">Publications</h2>
+                </header>
+                <div class="main-body" id="publications-md"></div>
+            </section>
+
+            <section class="content-section" id="awards">
+                <header>
+                    <h2 id="awards-subtitle">Awards</h2>
+                </header>
+                <div class="main-body" id="awards-md"></div>
+            </section>
+
+            <section class="content-section" id="experience">
+                <header>
+                    <h2 id="experience-subtitle">Experience</h2>
+                </header>
+                <div class="main-body" id="experience-md"></div>
+            </section>
         </div>
-    </section>
-    <!-- Top Section -->
+    </main>
 
-    <!-- Photo -->
-    <div class="container px-5">
-        <div id="avatar">
-            <img class="shadow" src="static/assets/img/photo.png">
-        </div>
-    </div>
-    <!-- Photo -->
-
-    <!-- Home -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
-        <div class="container px-5">
-            <header>
-                <h2 id="home-subtitle"> </h2>
-                <!-- <span class="bi bi-list"></span> -->
-            </header>
-            <div class="main-body" id="home-md"></div>
-        </div>
-    </section>
-    <!-- Home -->
-
-    <!-- Awards -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
-        <div class="container px-5">
-            <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>AWARDS </h2>
-            </header>
-            <div class="main-body" id="awards-md"></div>
-
-        </div>
-    </section>
-    <!-- Awards -->
-
-    <!-- Experience -->
-    <section class="bg-gradient-primary-to-secondary-dark mt5 md5" id="experience">
-        <div class="container px-5">
-            <header>
-                <h2 id="experience-subtitle"><i class="bi bi-briefcase-fill"></i> EXPERIENCE </h2>
-            </header>
-            <div class="main-body" id="experience-md"></div>
-        </div>
-    </section>
-    <!-- Experience -->
-
-    <!-- Publications -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
-        <div class="container px-5">
-            <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
-            </header>
-            <div class="main-body" id="publications-md"></div>
-
-        </div>
-    </section>
-    <!-- Publications  -->
-
-    <!-- Footer-->
-    <footer class="bg-bottom text-center py-5">
-        <div class="container px-5">
-            <div class="text-white-50 small">
-                <div id="copyright-text" class="mb-2"></div>
-                <a id="github-link" href="https://github.com/zhangyulai">Github</a>
-                <span class="mx-1">&middot;</span>
-                <a id="github-link" href="https://zhangyulai.github.io/Yulai-Zhang">张煜来</a>
-            </div>
+    <footer class="site-footer">
+        <div class="site-shell">
+            <span id="copyright-text">Copyright © Yulai Zhang</span>
+            <a href="https://github.com/zhangyulai">Github</a>
+            <a href="https://zhangyulai.github.io/Yulai-Zhang">Homepage</a>
         </div>
     </footer>
 
