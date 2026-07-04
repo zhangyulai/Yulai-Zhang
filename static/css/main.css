@@ -81,8 +81,8 @@ a:focus {
 
 .page-layout {
     display: grid;
-    grid-template-columns: 210px minmax(0, 1fr);
-    gap: 54px;
+    grid-template-columns: 240px minmax(0, 1fr);
+    gap: 64px;
     padding-top: 42px;
     padding-bottom: 64px;
 }
@@ -95,8 +95,8 @@ a:focus {
 
 .profile-photo {
     display: block;
-    width: 168px;
-    height: 168px;
+    width: 172px;
+    height: 226px;
     object-fit: cover;
     object-position: center top;
     border: 5px solid #f2f2f2;
@@ -346,14 +346,14 @@ a:focus {
     .profile-card {
         position: static;
         display: grid;
-        grid-template-columns: 118px minmax(0, 1fr);
+        grid-template-columns: 112px minmax(0, 1fr);
         gap: 18px;
         align-items: center;
     }
 
     .profile-photo {
-        width: 118px;
-        height: 118px;
+        width: 112px;
+        height: 148px;
     }
 
     .profile-card h1 {
@@ -387,8 +387,8 @@ a:focus {
     }
 
     .profile-photo {
-        width: 132px;
-        height: 132px;
+        width: 148px;
+        height: 194px;
     }
 
     .profile-list {
