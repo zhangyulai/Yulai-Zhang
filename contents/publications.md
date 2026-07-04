@@ -8,7 +8,7 @@
     <div class="publication-meta">
       <span class="publication-venue"><em>arXiv, 2026</em></span>
       <span class="publication-actions">
-        <a class="pub-button" href="Papers/Tinker_Paper.pdf" target="_blank" rel="noopener">PDF</a>
+        <a class="pub-button" href="/Yulai-Zhang/Papers/Tinker_Paper.pdf" target="_blank" rel="noopener">PDF</a>
       </span>
     </div>
   </div>
@@ -22,7 +22,7 @@
     <div class="publication-meta">
       <span class="publication-venue"><em>IEEE IJCNN, 2026</em></span>
       <span class="publication-actions">
-        <a class="pub-button" href="Papers/ijcnn_pos1034.pdf" target="_blank" rel="noopener">PDF</a>
+        <a class="pub-button" href="/Yulai-Zhang/Papers/ijcnn_pos1034.pdf" target="_blank" rel="noopener">PDF</a>
       </span>
     </div>
   </div>
