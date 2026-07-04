@@ -29,8 +29,16 @@
 </div>
 
 ### 2025
-- **CN121083695A: 基于 Unity 迁移的机器人通用行走控制方法与系统**  
-  发明专利，已公开，2025年10月。
+
+<div class="publication-item">
+  <img class="publication-image" src="static/assets/img/UnitreeGo2Sim2RealOfUnity.png" alt="Unity migration based robot locomotion control patent preview">
+  <div class="publication-main">
+    <div class="publication-title">CN121083695A: 基于 Unity 迁移的机器人通用行走控制方法与系统</div>
+    <div class="publication-meta">
+      <span class="publication-venue"><em>发明专利，已公开，2025年10月</em></span>
+    </div>
+  </div>
+</div>
 
 ### 2024
 - **2024SR1381025: 智慧乡村旅游云平台 V1.0**  
