@@ -22,7 +22,7 @@
     <div class="publication-meta">
       <span class="publication-venue"><em>IEEE IJCNN, 2026</em></span>
       <span class="publication-actions">
-        <a class="pub-button" href="Papers/IJCNN_pos1034.pdf" target="_blank" rel="noopener">PDF</a>
+        <a class="pub-button" href="Papers/ijcnn_pos1034.pdf" target="_blank" rel="noopener">PDF</a>
       </span>
     </div>
   </div>
