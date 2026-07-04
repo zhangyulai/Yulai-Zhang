@@ -442,6 +442,11 @@ a:focus {
     object-position: left center;
 }
 
+.internship-logo-stretch {
+    height: 76px;
+    object-fit: fill;
+}
+
 .internship-logo-text {
     display: inline-flex;
     align-items: center;

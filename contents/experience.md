@@ -21,7 +21,7 @@
 </div>
 
 <div class="internship-item">
-  <img class="internship-logo" src="static/assets/img/YiDaShuZi.jpg" alt="YiDa Digital logo">
+  <img class="internship-logo internship-logo-stretch" src="static/assets/img/YiDaShuZi.jpg" alt="YiDa Digital logo">
   <div class="internship-main">
     <div class="internship-company">深圳市宜达数字有限公司</div>
     <div class="internship-role">VR 开发实习生</div>
