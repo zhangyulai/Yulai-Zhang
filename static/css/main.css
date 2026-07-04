@@ -394,7 +394,7 @@ a:focus {
 }
 
 #awards .main-body ul,
-#experience .main-body ul {
+#internships .main-body ul {
     padding-left: 1.1rem;
 }
 
@@ -410,7 +410,7 @@ a:focus {
     color: var(--accent);
 }
 
-#experience .main-body h3 {
+#internships .main-body h3 {
     display: block;
     min-height: 0;
     padding: 0 0 10px;
@@ -423,7 +423,7 @@ a:focus {
     font-weight: 500;
 }
 
-#experience .main-body h3:first-child {
+#internships .main-body h3:first-child {
     margin-top: 0;
 }
 
