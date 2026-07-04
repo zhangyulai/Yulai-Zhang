@@ -1,6 +1,7 @@
 ### 2026
 
 <div class="publication-item">
+  <img class="publication-image" src="static/assets/img/tinker_paper.png" alt="Bipedal soccer robot paper preview">
   <div class="publication-main">
     <div class="publication-title">Reinforcement Learning Enabled Adaptive Multi-Task Control for Bipedal Soccer Robots</div>
     <div class="publication-authors"><span class="self-author">Yulai Zhang</span>, Yinrong Zhang, Ting Wu, Linqi Ye</div>
@@ -12,12 +13,13 @@
 </div>
 
 <div class="publication-item">
+  <img class="publication-image" src="static/assets/img/ijcnn_pos1034.png" alt="Robot multimodal decision-making paper preview">
   <div class="publication-main">
     <div class="publication-title">A New Paradigm for Robot Multimodal Understanding and Decision-Making with Large Language Models as the Cognitive Core</div>
     <div class="publication-authors"><span class="self-author">Yulai Zhang</span>, Yinrong Zhang, Ting Wu, Linqi Ye</div>
     <div class="publication-venue"><em>IEEE IJCNN, 2026</em></div>
     <div class="publication-actions">
-      <a class="pub-button" href="Papers/IJCNN_pos1034.pdf" target="_blank" rel="noopener">PDF</a>
+      <a class="pub-button" href="Papers/ijcnn_pos1034.pdf" target="_blank" rel="noopener">PDF</a>
     </div>
   </div>
 </div>
