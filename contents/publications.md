@@ -34,6 +34,7 @@
   <img class="publication-image" src="static/assets/img/UnitreeGo2Sim2RealOfUnity.png" alt="Unity migration based robot locomotion control patent preview">
   <div class="publication-main">
     <div class="publication-title">CN121083695A: 基于 Unity 迁移的机器人通用行走控制方法与系统</div>
+    <div class="publication-authors">叶林奇、<span class="self-author">张煜来</span>、吴原野</div>
     <div class="publication-meta">
       <span class="publication-venue"><em>发明专利，已公开，2025年10月</em></span>
     </div>
