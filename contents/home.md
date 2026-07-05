@@ -1,4 +1,4 @@
-I am Yulai Zhang (张煜来), currently pursuing my Master's degree in Artificial Intelligence at Shanghai University. My current interests lie in embodied intelligence, robot learning, reinforcement learning, and large language model based decision-making.
+I am Yulai Zhang (张煜来), currently pursuing my Master's degree in Artificial Intelligence at Shanghai University. My advisor is [Linqi Ye (叶林奇)](https://linqi-ye.github.io/).
 
 #### Education
 Master: **Shanghai University**, School of Future Technology, Artificial Intelligence (Sep. 2025 - Jun. 2028)  
