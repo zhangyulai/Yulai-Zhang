@@ -9,6 +9,7 @@
       <span class="publication-venue"><em>arXiv, 2026</em></span>
       <span class="publication-actions">
         <a class="pub-button" href="/Yulai-Zhang/Papers/Tinker_Paper.pdf" target="_blank" rel="noopener">PDF</a>
+        <a class="pub-button" href="/Yulai-Zhang/Videos/Tinker_Simulation.mp4" target="_blank" rel="noopener">Video</a>
       </span>
     </div>
   </div>
@@ -37,6 +38,9 @@
     <div class="publication-authors">叶林奇、<span class="self-author">张煜来</span>、吴原野</div>
     <div class="publication-meta">
       <span class="publication-venue"><em>发明专利，已公开，2025年10月</em></span>
+      <span class="publication-actions">
+        <a class="pub-button" href="/Yulai-Zhang/Videos/Go2_UnitySim2Real.mp4" target="_blank" rel="noopener">Video</a>
+      </span>
     </div>
   </div>
 </div>
